@@ -1,0 +1,129 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+h1, h2 {
+    color: rgb(222,94,0);
+}
+p {
+    color: rgb(89,181,177);
+}
+fieldset {
+    border-color: #f1f1f1;
+    border-radius: 8px;
+    max-width: 500px;
+    margin-bottom: 24px;
+}
+label {
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 16px;
+}
+table {
+    min-width: 576px;
+}
+textarea {
+    width: 370px;
+    height: 100px;
+    resize: none;
+}
+button {
+    margin-top: 16px;
+    background: rgb(89,181,177);
+    padding: 8px 8px;
+    border-radius: 6px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    opacity: .8;
+}
+table thead {
+    background: rgb(222,94,0);
+}
+table thead tr td {
+    text-align: center;
+    color: #fff;
+}
+table thead tr td:nth-child(1) {
+    text-align: left;
+}
+table tbody tr td {
+    text-align: center;
+}
+table tbody tr:nth-child(even) {
+    background: rgb(89,181,177);
+    color: #fff;
+}
+table tbody tr td:nth-child(1) {
+    text-align: left;
+}
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    margin-top: 32px;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px 0px;
+    border-right: 1px solid #f1f1f1;
+}
+.menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    padding: 16px;
+}
+.menu ul li a {
+    padding-block: 8px;
+    display: block;
+    text-decoration: none;
+    color: rgb(89,181,177);
+    font-size: 18px;
+}
+.menu ul li a:hover {
+    color: rgb(255,159,1);
+    text-decoration: underline;
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    min-height: 150px;
+}
+.header img {
+    width: 200px;
+    display: block;
+    margin-inline: auto;
+    margin-block: 16px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    border-block: 1px solid #f1f1f1;
+}
+.endereco {
+    display: flex;
+    gap: 50px;
+    margin-top: 32px;
+}
+.endereco p {
+    color: #000;
+}
+.footer p {
+    padding-block: 32px;
+    text-align: center;
+}

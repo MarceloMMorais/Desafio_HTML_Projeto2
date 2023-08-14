@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about.html">Sobre</a></li>
+                <li><a href="/time.html">Horário</a></li>
+                <li><a href="/contact.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="images/logo-contato.png" alt="Logo contato" title="Logo da página contato">
+            </div>
+    
+            <div class="content">
+                <h1>Entre em contato conosco</h1>
+                <form action="#">
+                    <fieldset>
+                        <legend>Informações pessoais</legend>
+                        <label for="name">Nome: </label><input type="text" id="name" placeholder="Ex: Marcelo Morais" /><br /><br />
+                        <label for="email">Email: </label><input type="email" id="email" placeholder="Ex: marcelomorais@email.com"/>
+                    </fieldset>
+                    <fieldset>
+                        <legend>O que deseja?</legend>
+                        <label for="assunto">Assunto: </label>
+                        <select name="assunto" id="assunto">
+                            <option value="">Selecione um assunto</option>
+                            <option value="geral">Clinica geral</option>
+                            <option value="psicologia">Psicologia animal</option>
+                            <option value="pediatria">Pediatria animal</option>
+                            <option value="oftamologi">Oftalmologia</option>
+                        </select><br /><br />
+                        <label for="email">Mensagem: </label><textarea name="message" id="message" placeholder="Sua mensagem..."></textarea>
+                    </fieldset>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar campos</button>
+                </form>
+                <div class="endereco">
+                    <div>
+                        <h2>Telefone</h2>
+                        <p>Whats: (xx) xxxxx - xxxx</p>
+                        <p>Telefone: (xx) xxxx - xxxx</p>
+                    </div>
+                    <div>
+                        <h2>Endereço</h2>
+                        <p>Rua: Fulano de Tal, 000</p>
+                        <p>CEP: xx-xxx-xxx</p>
+                        <p>Cidade/Estado</p>
+                    </div>
+                    <div>
+                        <h2>Mapa da nossa clinica</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23250.837755241504!2d31.132241207988045!3d29.972022845529036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14584f7de239bbcd%3A0xca7474355a6e368b!2zUGlyw6JtaWRlcyBkZSBHaXrDqQ!5e0!3m2!1spt-BR!2sbr!4v1687957482366!5m2!1spt-BR!2sbr" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                
+            </div>
+    
+            <div class="footer">
+                <p>Copyright<sup>®</sup> - Trilha HTML</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
